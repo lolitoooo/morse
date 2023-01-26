@@ -4,9 +4,7 @@
  * Date       : 25/01/2023
 */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "library.h"
+#include "main.h"
 
 int main(int argc, char **argv){
 
