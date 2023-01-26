@@ -8,10 +8,6 @@
 #include <stdlib.h>
 #include "library.h"
 
-void inputString(char *string, int size);
-void encode(char string[], char tab[26][2][5]);
-void decode(char morse[], char tab[26][2][5]);
-
 int main(int argc, char **argv){
 
     int size = 255;
@@ -55,7 +51,7 @@ int main(int argc, char **argv){
         printf("choix : ");
         scanf("%d", &choice);
 
-        while ((c = getchar()) != '\n' && c != EOF); // fflush en mieux
+        while ((c = getchar()) != '\n' && c != EOF);
 
         switch (choice){
             case 1:
@@ -74,12 +70,10 @@ int main(int argc, char **argv){
                 printf("Mauvais boutton :(\n");
                 break;
         }
-
         printf("Voulez-vous recommencer [1]Oui | [0]Non :");
         scanf("%d", &restart);
+
     } while(restart != 0);
 
     return EXIT_SUCCESS;
 }
-
-

@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
 
 void inputString(char *string, int size){
@@ -9,7 +8,6 @@ void inputString(char *string, int size){
     else
         fflush(stdin);
 }
-
 
 void encode(char string[], char tab[26][2][5]){
     int i;
