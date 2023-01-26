@@ -85,13 +85,15 @@ int main(int argc, char **argv){
             case 1:
                 printf("Saisir la chaine a encoder: ");
                 inputString(word, size);
-                encode(word, morse);
+                if (is_alpha_string(word) == 0)
+                    encode(word, morse);
                 break;
 
             case 2:
                 printf("Saisir la chaine a decoder: ");
                 inputString(word, size);
-                decode(word, morse);
+                if (is_dash_and_dot(word) == 0)
+                    decode(word, morse);
                 break;
 
             default:
