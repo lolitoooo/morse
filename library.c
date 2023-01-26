@@ -1,6 +1,4 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include "library.h"
 
 void inputString(char *string, int size){
     fgets(string, size, stdin);
