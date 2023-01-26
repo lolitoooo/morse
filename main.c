@@ -1,3 +1,9 @@
+/*
+ * Description: Ce programme a pour but d'encoder une chaine de carractere en morse ou de la decoder
+ * Autor      : Pena Loan
+ * Date       : 25/01/2023
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "library.h"
