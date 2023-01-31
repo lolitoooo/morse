@@ -12,7 +12,7 @@ void inputString(char *string, int size) {
 
 int is_alpha_string(char *string) {
     int i;
-    char special_chars[19] = ".,?'!/()&:;=+-_\\$@";
+    char special_chars[32] = "1234567890.,?'!/()&:;=+-_\\$@ ";
     for (i = 0; string[i] != '\0'; i++) {
         if (!isalpha(string[i]) && !strchr(special_chars, string[i])) {
             printf("Mauvais caratere\n");
