@@ -31,8 +31,6 @@ int is_dash_and_dot(char *string) {
     }
 }
 
-
-
 void encode(char string[], char tab[54][2][11]) {
     int i;
     int j;
