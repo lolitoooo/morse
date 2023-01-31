@@ -73,7 +73,6 @@ int main(int argc, char **argv){
     };
 
     do{
-
         printf("1.....Encoder du morse\n");
         printf("2.....Decoder du morse\n");
         printf("choix : ");
@@ -102,8 +101,6 @@ int main(int argc, char **argv){
         }
         printf("Voulez-vous recommencer [1]Oui | [0]Non :");
         scanf("%d", &restart);
-
     } while(restart != 0);
-
     return EXIT_SUCCESS;
 }
