@@ -1,11 +1,11 @@
-#Morse Code Encoder/Decoder
+#  Morse Code Encoder/Decoder
 This project is a Morse code encoder/decoder written in C language.
 
-#Functionality
+# Functionality
 The Morse code encoder/decoder can perform the following operations:
 
-*Convert text to Morse code
-*Convert Morse code to text
+* Convert text to Morse code
+* Convert Morse code to text
 
-#Author
+# Author
 This project was created by Pena Loan.
